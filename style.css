@@ -1,0 +1,13 @@
+html {
+    background-color: black;
+}
+.d-flex {
+background-color: rgb(172, 172, 172);
+}
+.container-fluid{
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: solid yellow;
+}
