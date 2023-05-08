@@ -1,13 +1,24 @@
-html {
-    background-color: black;
+
+.bg-header-color {
+background-color: rgb(178, 176, 246);
+border: solid black;
 }
-.d-flex {
-background-color: rgb(172, 172, 172);
-}
-.container-fluid{
-    background-color: rgb(172, 172, 172);
+.container{
+    background-color: rgb(178, 176, 246);
     display: flex;
     flex-direction: column;
-    align-items:center;
-    border: solid yellow;
+    align-items: center;
+    border: solid black;
+    margin: 2%;
+}
+.usuario {
+    height: 400px;
+    width: 800px;
+}
+footer {
+    background-color: rgb(178, 176, 246);
+    border: solid black;
+}
+body {
+    background-image: url(/imagenes/portfolio.png);
 }
