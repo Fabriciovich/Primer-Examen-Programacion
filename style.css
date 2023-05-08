@@ -39,3 +39,25 @@ body {
     display: flex;
     border: solid black;
     margin: 2%;
+}
+.css-logo {
+    display: flex;
+height: 200px;
+width: 200px;
+border: solid white;
+background-color: gray;
+}
+.html-logo {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: solid white;
+    background-color: gray;
+}
+.pseint-logo {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: solid white;
+    background-color: gray;
+}
