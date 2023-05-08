@@ -1,8 +1,8 @@
-
 .bg-header-color {
-background-color: gray;
-border: solid black;
+    background-color: gray;
+    border: solid black;
 }
+
 .container {
     background-color: gray;
     display: flex;
@@ -11,17 +11,21 @@ border: solid black;
     border: solid black;
     margin: 2%;
 }
+
 .usuario {
     height: 400px;
-    width: 800px;
+    width: 400px;
 }
+
 footer {
     background-color: gray;
     border: solid black;
 }
+
 body {
     background-image: url(/imagenes/fondo.jpg);
 }
+
 .main {
     background-color: gray;
     color: black;
@@ -30,34 +34,55 @@ body {
     flex-direction: column;
     height: auto;
     width: auto;
-    margin: 10%;
-    padding: 5%;
+    margin: 6%;
+    padding: 1%;
 }
+
 .futbol {
     height: 250px;
     width: 250px;
     display: flex;
     border: solid black;
     margin: 2%;
+    flex-direction: column;
 }
+.informacion {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    margin: 2%;
+}
+
 .css-logo {
-    display: flex;
-height: 200px;
-width: 200px;
-border: solid white;
-background-color: gray;
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
 }
+
 .html-logo {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    border: solid white;
-    background-color: gray;
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
 }
+
 .pseint-logo {
-    display: flex;
-    height: 200px;
-    width: 200px;
-    border: solid white;
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
+}
+
+.mains {
     background-color: gray;
+    color: black;
+    margin: 3%;
+    padding: 1%;
+    text-align: center;
 }
