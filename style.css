@@ -3,13 +3,16 @@
     border: solid black;
 }
 
-.container {
-    background-color: gray;
+.flex-container {
+    background: gray;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     border: solid black;
-    margin: 2%;
+    margin: 5%;
+    width: auto;
+    padding: auto;
 }
 
 .usuario {
@@ -24,6 +27,7 @@ footer {
 
 body {
     background-image: url(/imagenes/fondo.jpg);
+
 }
 
 .main {
@@ -32,27 +36,21 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: auto;
-    width: auto;
-    margin: 6%;
-    padding: 1%;
+    margin: 5%;
+    padding: 5%;
+    border: solid black;
 }
 
-.futbol {
-    height: 250px;
-    width: 250px;
+.fw-bold {
     display: flex;
-    border: solid black;
-    margin: 2%;
-    flex-direction: column;
+    text-align: center;
 }
-.informacion {
+
+.fotos {
     height: 250px;
     width: 250px;
-    display: flex;
-    flex-direction: column;
+    margin: 10px;
     border: solid black;
-    margin: 2%;
 }
 
 .css-logo {
