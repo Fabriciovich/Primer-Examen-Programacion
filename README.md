@@ -35,3 +35,11 @@ ABOUT: Aquí agregue informacion ficticia sobre mí.
 <p>
 <img class="fotos" src="/imagenes/Fútbol.jpg" alt="futbol">
 <p>
+
+<p>
+<img class="fondometal" src="/imagenes/fondometal.jpg" alt="fondometal">
+<p>
+
+<p>
+<img class="fondo" src="/imagenes/fondo.jpg" alt="fondo">
+<p>

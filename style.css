@@ -4,7 +4,10 @@
 }
 
 .flex-container {
-    background: gray;
+    background-image: url(/imagenes/fondometal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,6 +24,7 @@
     width: 50%;
     margin: auto;
     padding: auto;
+    border: 1px solid black;
 }
 
 footer {
@@ -30,7 +34,9 @@ footer {
 
 body {
     background-image: url(/imagenes/fondo.jpg);
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
 }
 
 .main {
