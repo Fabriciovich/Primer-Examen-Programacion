@@ -1,13 +1,98 @@
-html {
-    background-color: black;
+.bg-header-color {
+    background-color: gray;
+    border: solid black;
 }
-.d-flex {
-background-color: rgb(172, 172, 172);
-}
-.container-fluid{
-    background-color: rgb(172, 172, 172);
+
+.flex-container {
+    background-image: url(/imagenes/fondometal.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
     display: flex;
     flex-direction: column;
-    align-items:center;
-    border: solid yellow;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    margin: 5%;
+    width: auto;
+    padding: auto;
+    font-family:cursive;
+}
+
+.usuario {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    padding: auto;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: gray;
+    border: solid black;
+}
+
+body {
+    background-image: url(/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.main {
+    background-color: gray;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5%;
+    padding: 5%;
+    border: solid black;
+    font-family:cursive;
+}
+
+.fotos {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: solid black;
+}
+
+.css-logo {
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
+}
+
+.html-logo {
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
+}
+
+.pseint-logo {
+    width: 60%;
+    margin: auto;
+    display: block;
+    border: solid rgb(70, 70, 70);
+    background-color: rgb(92, 92, 92);
+}
+
+.mains {
+    background-color: gray;
+    color: black;
+    margin: 3%;
+    padding: 1%;
+    text-align: center;
+    font-family: cursive;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+    margin: 2%;
 }
